@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// This program creates two stacks form two different constructors, one  with a pre determined size the other with a defined size by user.
 public class StackMain<E> {
 	
 	public static GenerickStack<String> CustStack;
@@ -12,7 +12,7 @@ public class StackMain<E> {
 	{
 	
 int stackSize=0;
-		
+		//get size of new array for constructor
 		System.out.println("What size should the cutom stack be?");
 		scan = new Scanner(System.in);
 		try
@@ -33,7 +33,7 @@ int stackSize=0;
 	}
 	
 
-	
+	//Check if stack is full, if stack is full create a new stack
 	public void pushToGenerick(String obj)
 	{
 		if(CustStack.getSize() >= CustStack.getLength())
@@ -46,9 +46,7 @@ int stackSize=0;
 			{	
 				CustStackDoubled.push(CustStack.pop());
 			}
-			
-		
-	}
+		}
 		else
 		{
 	CustStack.push(obj);
