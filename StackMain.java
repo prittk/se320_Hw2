@@ -54,7 +54,7 @@ int stackSize=0;
 		
 	CustStack.toString();
 	}
-	
+	// same as pushToGeneric
 	public void pushToMax(String obj)
 	{
 		if(MaxStack.getSize() >= MaxStack.getLength())
