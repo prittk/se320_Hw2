@@ -16,7 +16,7 @@ public class ArrayList<E>
 		 
 		 System.out.print(newList);
 		 }
-	
+	// This takes in the previouse array, and creates a new array with the items in it
 		public static <E> java.util.ArrayList<E> removeDuplicates(java.util.ArrayList<E> list)
 		{
 			 java.util.ArrayList<E> RemovedList = new java.util.ArrayList<E>();
@@ -33,7 +33,6 @@ public class ArrayList<E>
 					RemovedList.add(item);
 				}
 			}
-		/* Your implementation here */
 			return RemovedList;
 		 }
 }
