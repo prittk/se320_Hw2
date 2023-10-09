@@ -1,4 +1,5 @@
-//this hw takes an arraylist, if duplicates are added, remove them and copy to nre list
+//this hw takes an arraylist, if duplicates are added, remove them and copy to new list
+//https://stackoverflow.com/questions/49620961/using-a-for-each-loop-to-search-for-strings-in-an-arraylist resources used for loop
 public class ArrayList<E> 
 {
 
@@ -20,6 +21,7 @@ public class ArrayList<E>
 		public static <E> java.util.ArrayList<E> removeDuplicates(java.util.ArrayList<E> list)
 		{
 			 java.util.ArrayList<E> RemovedList = new java.util.ArrayList<E>();
+			
 			
 			 //Search each element in list and save to put in the newlist	
 			for(E item : list)
